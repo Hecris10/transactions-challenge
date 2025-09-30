@@ -1,9 +1,9 @@
 import request from "supertest";
 import { app, transactions } from "../src/app.js";
 
-describe("Transasctiona API", () => {
+describe("Transaction API", () => {
   beforeEach(() => {
-    ransactions.length = 0;
+    transactions.length = 0;
   });
     
     
