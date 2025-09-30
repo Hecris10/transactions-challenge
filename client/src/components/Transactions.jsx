@@ -135,10 +135,14 @@ export default function Transactions() {
 
 const styles = {
     container: {
+        paddingTop: 32,
+        paddingBottom: 32,
+        paddingLeft: 16,
+        paddingRight: 16,
         minHeight: '100vh',
         display: 'grid',
+        width: '100vw',
         gap: 16,
-        padding: 16,
         background: '#f7f7fb',
         gridTemplateColumns: 'minmax(0, 1fr)',
     },

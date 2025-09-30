@@ -24,8 +24,6 @@ app.get('/api/transactions', (_req, res) => {
 app.post('/api/transactions', (req, res) => {
     
     const { amount, description } = req.body || {}
-
-    console.log({amount, description})
     
     if (!isValidAmount(amount)) {
         
